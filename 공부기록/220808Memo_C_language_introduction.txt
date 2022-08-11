@@ -20,31 +20,31 @@ C언어의 특징
 
 C프로그램 빌드과정
 hello.c  --(compile)-->  hello.o --(linker)--> hello.exe
-· hello.c    : 소스파일
-· hello.o    : 소스파일을 컴파일한 object program
+· hello.c   : 소스파일
+· hello.o   : 소스파일을 컴파일한 object program
 · hello.exe : 실행파일
 
 C컴파일러
-· GCC          : IDE(Integrated Development Environment)제공하지 않음. 명령형 방식
+· GCC        : IDE(Integrated Development Environment)제공하지 않음. 명령형 방식
 · Visual C++ : Microsoft사에서 개발. IDE(통합개발환경)제공. 편리함
-· Clang        : LLVM프로젝트 중 하나. 다양한 디바이스를 타겟으로 할때 유리
+· Clang      : LLVM프로젝트 중 하나. 다양한 디바이스를 타겟으로 할때 유리
 
 프로젝트 1개당 실행파일도 1개. 프로젝트 이름 = 실행파일 이름
 
 "C언어는 함수에서 시작해서 함수에서 끝난다" ← C언어에서 함수가 매우매우 중요
 
 함수
-· 함수의 정의    : 함수를 구성해서 만드는 것
-· 함수의 호출    : 함수의 실행을 명령하는 것
+· 함수의 정의   : 함수를 구성해서 만드는 것
+· 함수의 호출   : 함수의 실행을 명령하는 것
 · 함수 인자전달 : 함수 실행 명령시 전달하는 입력값 
-· 함수의 구조    : int main () { … }
+· 함수의 구조   : int main () { … }
 	- int : 함수의 반환값. 출력 형태
 		* void : 함수의 반환값이 없다는 의미
 	- main : 함수의 이름. 식별자
 	- 중괄호 내부 : 함수의 몸체
 
 주석
-· line comment   : // …
+· line comment  : // …
 · block comment : /* … */
 
 출력, 입력을 위해 <stdio.h>헤더파일 삽입 필수!

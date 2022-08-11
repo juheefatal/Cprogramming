@@ -19,16 +19,22 @@
     <Filter Include="소스 파일\220810self">
       <UniqueIdentifier>{aa1ab0bc-9ce9-497b-b32e-90c61a93afd6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\220811self">
+      <UniqueIdentifier>{e7492406-22b9-47d9-97f9-138f0e4055c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="File01_hello.c">
+    <ClCompile Include="0808_File01_hello.c">
       <Filter>소스 파일\220808self</Filter>
     </ClCompile>
-    <ClCompile Include="File02_print.c">
+    <ClCompile Include="0808_File02_print.c">
       <Filter>소스 파일\220808self</Filter>
     </ClCompile>
-    <ClCompile Include="File01_simpleOperator.c">
+    <ClCompile Include="0810_File01_simpleOperator.c">
       <Filter>소스 파일\220810self</Filter>
+    </ClCompile>
+    <ClCompile Include="0811_File01_operator.c">
+      <Filter>소스 파일\220811self</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

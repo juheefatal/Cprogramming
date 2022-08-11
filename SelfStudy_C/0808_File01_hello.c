@@ -6,7 +6,7 @@ int main() {
 	printf("Hello World!\n");
 
 	//book p.39-02-1-1
-	printf("È«±æµ¿\nÈ« ±æ µ¿\nÈ«  ±æ  µ¿\n\n");
+	printf("í™ê¸¸ë™\ní™ ê¸¸ ë™\ní™  ê¸¸  ë™\n\n");
 
 	//book p.39-02-1-2
 	printf("name   : Juhee Jung\n");

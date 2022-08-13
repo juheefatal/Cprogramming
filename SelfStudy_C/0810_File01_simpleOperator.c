@@ -61,8 +61,5 @@ int main() {
 	printf("num2 = %d\n", num2);
 	//line54의 산술연산과 대입연산의 결과로 num2에는 12가 대입되어있으니 12출력됨
 
-	//OperatorSix
-	
-
 	return 0;
 }

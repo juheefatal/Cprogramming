@@ -36,5 +36,8 @@
     <ClCompile Include="0813_File01_operator.c">
       <Filter>소스 파일\220813self</Filter>
     </ClCompile>
+    <ClCompile Include="File02_bitOperator.c">
+      <Filter>소스 파일\220813self</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
